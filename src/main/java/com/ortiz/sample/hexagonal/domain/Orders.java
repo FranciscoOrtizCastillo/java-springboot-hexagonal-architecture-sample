@@ -1,4 +1,4 @@
-package com.lostsys.sample.hexagonal.domain;
+package com.ortiz.sample.hexagonal.domain;
 
 import java.math.BigDecimal;
 

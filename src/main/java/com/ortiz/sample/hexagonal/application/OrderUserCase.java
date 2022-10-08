@@ -1,4 +1,4 @@
-package com.lostsys.sample.hexagonal.application;
+package com.ortiz.sample.hexagonal.application;
 
 import java.math.BigDecimal;
 import java.util.UUID;
@@ -6,9 +6,9 @@ import java.util.UUID;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.lostsys.sample.hexagonal.domain.Orders;
-import com.lostsys.sample.hexagonal.infra.inputport.OrderInputPort;
-import com.lostsys.sample.hexagonal.infra.outputport.EntityRepository;
+import com.ortiz.sample.hexagonal.domain.Orders;
+import com.ortiz.sample.hexagonal.infra.inputport.OrderInputPort;
+import com.ortiz.sample.hexagonal.infra.outputport.EntityRepository;
 
 @Component
 public class OrderUserCase implements OrderInputPort {

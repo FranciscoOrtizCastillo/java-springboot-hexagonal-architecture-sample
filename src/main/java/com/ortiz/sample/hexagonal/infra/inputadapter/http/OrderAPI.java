@@ -1,4 +1,4 @@
-package com.lostsys.sample.hexagonal.infra.inputadapter.http;
+package com.ortiz.sample.hexagonal.infra.inputadapter.http;
 
 import java.math.BigDecimal;
 
@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.lostsys.sample.hexagonal.domain.Orders;
-import com.lostsys.sample.hexagonal.infra.inputport.OrderInputPort;
+import com.ortiz.sample.hexagonal.domain.Orders;
+import com.ortiz.sample.hexagonal.infra.inputport.OrderInputPort;
 
 @RestController
 @RequestMapping(value = "order")

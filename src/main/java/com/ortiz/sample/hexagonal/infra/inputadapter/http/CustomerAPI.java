@@ -1,4 +1,4 @@
-package com.lostsys.sample.hexagonal.infra.inputadapter.http;
+package com.ortiz.sample.hexagonal.infra.inputadapter.http;
 
 
 import java.util.List;
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.lostsys.sample.hexagonal.domain.Customer;
-import com.lostsys.sample.hexagonal.infra.inputport.CustomerInputPort;
+import com.ortiz.sample.hexagonal.domain.Customer;
+import com.ortiz.sample.hexagonal.infra.inputport.CustomerInputPort;
 
 @RestController
 @RequestMapping(value = "customer")
